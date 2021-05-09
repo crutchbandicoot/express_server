@@ -4,13 +4,7 @@ This is an express server boilerplate
 ## Technologies used
 * Typescript
 * Express
-* Jest for testing
-
-## Installition
-npm install
-
-## Running the app dev mode
-npm run dev
+* Jest
 
 ## Building  the app
 npm run build
