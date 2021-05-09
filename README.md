@@ -1,5 +1,5 @@
 # Express Server boilerplate
-This is a boilerplate express server written in Typescript
+This is an express server boilerplate
 
 ## Technologies used
 * Typescript
