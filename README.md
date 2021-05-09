@@ -2,9 +2,9 @@
 This is a boilerplate express server written in Typescript
 
 ## Technologies used
-Typescript
-Express
-Jest for testing
+* Typescript
+* Express
+* Jest for testing
 
 ## Installition
 npm install
