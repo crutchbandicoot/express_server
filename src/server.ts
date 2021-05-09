@@ -1,19 +1,15 @@
 import dotenv from "dotenv";
-import express from "express";
-import routes from "./routes/routes";
+import http from "http";
+import app from "./app";
+
 
 // initialize configuration
 dotenv.config();
 
 const port = process.env.PORT;
 
-const app = express();
+const server = http.createServer(app);
 
-app.get("/", (req, res) => {
-  res.send("Hello World!");
-});
-
-app.listen(port, () => {
-  // tslint:disable-next-line:no-console
+server.listen(port, () => {
   console.log(`⚡️[server]: Server is running at https://localhost:${port}`);
 });
